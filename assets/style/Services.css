@@ -1,0 +1,51 @@
+#ui{
+    width: 400px;
+    height: 500px;
+    background-color: #cdba89;
+    border-radius: 40px;
+    text-align: center;
+
+
+}
+#ui1{
+    position: relative;
+    bottom: 60px;
+    padding-bottom: 20px;
+}
+#logo{
+    width: 400px;
+    height: 500px;
+    background-color: #cdba89;
+    border-radius: 40px;
+    text-align: center;
+}
+#logo1{
+    position: relative;
+    bottom: 60px;
+    padding-bottom: 20px;
+}
+#web{
+    width: 400px;
+    height: 500px;
+    background-color: #cdba89;
+    border-radius: 40px;
+    text-align: center;
+}
+#web1{
+    position: relative;
+    bottom: 60px;
+    padding-bottom: 20px;
+
+}
+#web:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+#logo:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+#ui:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+}

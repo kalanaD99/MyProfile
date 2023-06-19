@@ -1,0 +1,210 @@
+header{
+    background: #e49539;
+    width: 100%;
+}
+#scroll{
+    margin-bottom: 0;
+}
+#scroll1{
+    top: 175px;
+}
+#underline{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+}
+#myPhoto{
+    position: relative;
+    top: 35px;
+    right: 0;
+}
+#disc{
+    top:100px;
+}
+#dev{
+    top: 90px;
+}
+#name2{
+    top: 100px;
+    left: 175px;
+    width: 250px;
+}
+#name1{
+    top: 155px;
+
+
+}
+#helllo{
+    top: 160px;
+}
+#panel{
+    position: fixed;
+    width: 100%;
+
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
+    background: #e49539;
+
+}
+#nav{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-family: cursive;
+}
+
+#underline1{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+    bottom: 9px;
+}
+#underline1:hover{
+    width: 200px;
+}
+#underline2{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+    bottom: 9px;
+}
+#underline4{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+    bottom: 9px;
+}
+#underline5{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+    bottom: 9px;
+}
+#content{
+    margin-top: 165px;
+}
+
+#scroll{
+    margin-top: 80px;
+}
+#myPhoto{
+    margin-top: 50px;
+}
+/*@media all and (max-width: 1200px){
+    #media{
+        position: relative;
+        bottom:50px;
+        left: 570px;
+    }
+}*/
+#myPhoto:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+.wrap .btn{
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+    float: left;
+    box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.9),
+    7px 7px 20px 0 rgba(0,0,0,0);
+    transition: ease-out;
+    cursor: pointer;
+}
+.btn .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #040709;
+    border-radius: 50px;
+}
+.btn span{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 50px;
+
+}
+.btn .icon i{
+    font-size: 25px;
+    line-height:50px;
+    color: #ffffff;
+}
+
+.btn:hover{
+    width: 200px;
+    transition: all  ease-in-out;
+}
+.btn:nth-child(1):hover .icon{
+    background: #0722a2;
+}
+.btn:nth-child(2):hover .icon{
+    background: #090707;
+}
+.btn:nth-child(3):hover .icon{
+    background: #1221c0;
+}
+.btn:nth-child(4):hover .icon{
+    background: #08d21a;
+}
+.btn:nth-child(5):hover .icon{
+    background: #dd2a7b;
+}
+#sName{
+    background: #e49539;
+    color: white;
+
+}
+
+#sName{
+    background: #e49539;
+    color: white;
+    animation-name: t2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes t2 {
+    from{
+        background: white;
+        color: black;
+    }
+    to{
+        background: #e49539;
+        color: white;
+    }
+}
+
+#fName{
+    background: white;
+    color: black;
+    animation-name: t3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes t3{
+    from{
+        background: #e49539;
+        color: white;
+    }
+    to{
+        background: white;
+        color: black;
+    }
+}
+/*
+#sName:hover{
+    background: white;
+    color: black;
+}
+#fName:hover{
+    background: #e49539;
+    color: white;
+    transition-duration: ;
+
+}*/

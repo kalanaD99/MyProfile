@@ -1,0 +1,120 @@
+#photo2{
+  /*  margin-left:100px;*/
+    margin-top: 25px;
+}
+
+#about me{
+    width: 100vw;
+}
+
+.btn-cv,
+.btn-cv *,
+.btn-cv :after,
+.btn-cv :before,
+.btn-cv:after,
+.btn-cv:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.btn-cv {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #e49539;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-mask-image: -webkit-radial-gradient(rgba(0, 0, 0, 0), #fff);
+    border-radius: 15px;
+    font-family: "Courier Prime";
+
+
+}
+.btn-cv {
+    --neon: #f8b409;
+    box-sizing: border-box;
+    display: block;
+    -webkit-mask-image: none;
+    outline: 4px solid #e5b53f;
+    outline-offset: -4px;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    transition: 0.2s linear 0.1s;
+    height: 50px;
+
+
+}
+
+.btn-cv > p {
+    position: relative;
+    top: -6px;
+}
+
+.btn-cv:hover {
+    background: var(--neon);
+    box-shadow: 0 0 5px var(--neon), 0 0 25px var(--neon), 0 0 50px var(--neon),
+    0 0 100px var(--neon);
+    color: #fff;
+    outline-color: transparent;
+    transition: 0.2s linear 0.6s;
+}
+
+.btn-cv span {
+    display: block;
+    inset: 0;
+
+}
+
+.btn-cv .top {
+    border-top: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateX(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-cv:hover .top {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear;
+}
+
+.btn-cv .right {
+    border-right: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateY(calc(-100% + var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-cv:hover .right {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.2s;
+}
+
+.btn-cv .bottom {
+    border-bottom: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateX(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-cv:hover .bottom {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.4s;
+}
+
+.btn-cv .left {
+    border-left: 4px solid var(--neon);
+    opacity: 0;
+    transform: translateY(calc(100% - var(--progress, 0%)));
+    transition: none;
+}
+
+.btn-cv:hover .left {
+    --progress: 100%;
+    opacity: 1;
+    transition: transform 0.2s linear 0.6s;
+}
