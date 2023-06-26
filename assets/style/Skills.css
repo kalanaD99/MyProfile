@@ -31,6 +31,8 @@
 
      transition: all 2s;
  }*/
+
+/*------Rotate-----*/
 @keyframes t1 {
     from{
         transform: rotate(0deg);
