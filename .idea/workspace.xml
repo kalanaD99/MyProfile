@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bfd103e-6784-4875-a6bb-48e913a95480" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Aboutme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Assignments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Contact me.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Homepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Services.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/Skills.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/mediaQuery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/rings.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
       <workItem from="1687712673420" duration="209000" />
       <workItem from="1687716459705" duration="5386000" />
       <workItem from="1687751641751" duration="2023000" />
-      <workItem from="1687805546732" duration="2605000" />
+      <workItem from="1687805546732" duration="7108000" />
     </task>
     <task id="LOCAL-00001" summary="finished 95%">
       <created>1687204488806</created>
@@ -106,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687806450948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete">
+      <created>1687808195052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687808195052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished 95%" />
     <MESSAGE value="Finalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
 </project>
